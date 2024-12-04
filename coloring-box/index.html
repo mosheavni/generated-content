@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HipsterDraw</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>✨ HipsterDraw ✨</h1>
+      <div class="controls">
+        <div class="brush-sizes">
+          <button data-size="2">XS</button>
+          <button data-size="5">S</button>
+          <button data-size="10">M</button>
+          <button data-size="15">L</button>
+          <button data-size="20">XL</button>
+        </div>
+        <div class="colors">
+          <button
+            data-color="#000000"
+            style="background-color: #000000"
+          ></button>
+          <button
+            data-color="#FF4136"
+            style="background-color: #ff4136"
+          ></button>
+          <button
+            data-color="#2ECC40"
+            style="background-color: #2ecc40"
+          ></button>
+          <button
+            data-color="#0074D9"
+            style="background-color: #0074d9"
+          ></button>
+          <button
+            data-color="#FFDC00"
+            style="background-color: #ffdc00"
+          ></button>
+          <button
+            data-color="#B10DC9"
+            style="background-color: #b10dc9"
+          ></button>
+          <button
+            data-color="#FF851B"
+            style="background-color: #ff851b"
+          ></button>
+          <button
+            data-color="#7FDBFF"
+            style="background-color: #7fdbff"
+          ></button>
+          <button
+            data-color="#F012BE"
+            style="background-color: #f012be"
+          ></button>
+          <button
+            data-color="#01FF70"
+            style="background-color: #01ff70"
+          ></button>
+        </div>
+        <div class="actions">
+          <button id="clear">Clear Canvas</button>
+          <button id="undo">Undo</button>
+        </div>
+      </div>
+      <canvas id="canvas"></canvas>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

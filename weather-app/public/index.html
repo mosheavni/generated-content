@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Local Weather Vibes</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-grid">
+        <div class="main-info">
+          <h1 id="location">Discovering your location...</h1>
+          <div class="weather-details">
+            <div id="temperature" class="temperature"></div>
+            <div id="description" class="description"></div>
+            <div class="meta">
+              <span id="humidity"></span>
+              <span id="wind"></span>
+            </div>
+          </div>
+          <div class="city-info">
+            <p id="local-time"></p>
+            <p id="region"></p>
+            <p id="country"></p>
+          </div>
+        </div>
+        <div class="city-gallery">
+          <h2>Views from <span id="city-name"></span></h2>
+          <div id="image-grid" class="image-grid"></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
